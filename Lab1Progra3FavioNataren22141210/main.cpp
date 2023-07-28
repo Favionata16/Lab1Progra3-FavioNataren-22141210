@@ -85,6 +85,18 @@ int main() {
 		case 2: {
 			cout << "\n--Ejercicio 2--";
 
+			double x;
+			int n2;
+			cout << "\nIngrese el numero x: ";
+			cin >> x;
+			cout << "Ingrese el valor de n: ";
+			cin >> n2;
+
+			double resultado = raizNesima(x, n2);
+
+			cout << "\nRaiz " << n2 << " de " << x << " = " << resultado << endl;
+
+			cout << "\n";
 
 			break;
 		}
